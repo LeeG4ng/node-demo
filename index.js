@@ -10,5 +10,7 @@ https.createServer({
    }, app).listen(8086, function() {
      console.log("run 8086");
  });
-app.get('/', function(req, res) {//设置 console.log('get root'); res.send('get root');
+app.get('/', function(req, res) {//设置 
+    console.log('get root'); 
+    res.send('get root');
 });
